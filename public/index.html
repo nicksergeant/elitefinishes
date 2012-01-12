@@ -1,0 +1,65 @@
+<?php
+$page = "home";
+$sub = false;
+
+$sub == true ? $sub = "../" : $sub = "";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Elite Finishes - Rochester and Finger Lakes, NY Seal Coating and Asphalt Restoration</title>
+
+<?php include $sub."includes/head.php";?>
+
+<script type="text/javascript" src="<?php echo $sub;?>includes/js_scripts.js"></script>
+
+</head>
+
+<body>
+<noscript><div>Your browser either has JavaScript disabled, or does not support it.</div></noscript>
+<div class="frame">
+	<?php include $sub."includes/header.php";?>
+	<?php include $sub."includes/nav.php";?>
+	<div class="mainContent">
+		<div class="homeLeft">
+			<img src="images/house.jpg" alt="Elite Finishes specializes in Rochester and Finger Lakes, NY asphalt restoration and seal coating" title="Elite Finishes specializes in Rochester and Finger Lakes, NY asphalt restoration and seal coating" />
+		</div>
+		<div class="homeRight">
+			<a class="homeBtn1" title="Rochester and Finger Lakes, NY Asphalt Repair" href="services/asphalt_repair.php" onclick="this.blur();"><span class="homeBtnTitle"><img class="bullet" src="images/home_btn_bullet.gif" alt="" title="" /> Asphalt Repair</span><br />Treating aged, dried out and warped asphalt is no easy task. Let our professionals handle it from day one.</a>
+			<a class="homeBtn2" title="Rochester and Finger Lakes, NY Seal Coating" href="services/seal_coating.php" onclick="this.blur();"><span class="homeBtnTitle"><img class="bullet" src="images/home_btn_bullet.gif" alt="" title="" /> Seal Coating</span><br />Over the years, poorly maintained asphalt can develop impurities. We can help.</a>
+			<a class="homeBtn3" title="10 Things to Ask Your Pavement Maintenance Contractor" href="services/10-things-to-ask-your-pavement-maintenance-contractor.php" onclick="this.blur();"><span class="homeBtnTitle"><img class="bullet" src="images/home_btn_bullet.gif" alt="" title="" /> 10 Things to Ask Your Contractor</span><br />Follow this simple 10-step guide to ensure you're getting the most out of your pavement maintenance contractor.</a>
+		</div>
+		<div class="clear"></div>
+		<div class="homeMiddleSep"></div>
+		<!--<div class="homeBottomLeft">
+			<h1>Seasonal Specials</h1>
+			<hr />
+			<div class="sectionContent">
+				<span class="specialPercentage">$$$</span><br />Check back here often for our seasonal specials, or <img class="spBullet" src="images/home_btn_bullet.gif" alt="" title="" /> <a style="font-weight: bold;" title="Get Started" href="contact">begin your project now</a>.
+			</div>
+		</div>-->
+		<div class="homeBottomLeft">
+			<h1>March of Dimes Supporter</h1>
+			<hr />
+			<div class="sectionContent">
+			    <div style="float: right; margin-left: 10px;">
+					<a href="http://www.marchofdimes.com/" title="Lean more about the March of Dimes Foundation"><img src="images/mod.gif" alt="Learn more about the March of Dimes Foundation" title="Learn more about the March of Dimes Foundation" style="border: 0;" /></a>
+				</div>
+				Elite Finishes is a proud supporter of the March of Dimes Foundation<br />
+				<img class="spBullet" style="margin: 0;" src="images/home_btn_bullet.gif" alt="" title="" /> <a style="font-weight: bold;" title="Learn more about the March of Dimes" href="http://www.marchofdimes.com/">Learn more about the March of Dimes</a>
+			</div>
+		</div>
+		<div class="homeBottomRight">
+			<h1>About Us</h1>
+			<hr />
+			<div class="sectionContent">
+				The owner of Elite Finishes has been trained and lives by military values.  As a member of the U.S. Army, he believes each and every project deserves integrity and pride, leaving every customer completely satisfied when the job is complete.
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<?php include $sub."includes/footer.php";?>
+</div>
+</body>
+
+</html>
